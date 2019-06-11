@@ -6,6 +6,8 @@ document.getElementById("boton1").addEventListener("click", () => { //funcion fl
   para la seccion llamada bienvenidaBoson*/
   bienvenidaBoson.style.display = "none"; /*La variable const Boson se hace
   desaparecer con none al hacer click en el boton1*/
+  const encriptar = document.getElementById("encriptar");
+  encriptar.style.display = "block";
 
 });
 

@@ -76,3 +76,39 @@
   font-family: 'Orienta', sans-serif;
   font-family: 'Arya', sans-serif;
 }
+
+.entitulo{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'IM Fell English SC', serif;
+  font-family: 'Orienta', sans-serif;
+  font-family: 'Arya', sans-serif;
+}
+
+.instrucciones{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'IM Fell English SC', serif;
+  font-family: 'Orienta', sans-serif;
+  font-family: 'Arya', sans-serif;
+}
+
+#boton5{
+  display: block;
+  margin: 4em 4em 4em 4em;
+}
+
+#boton6{
+  display: block;
+  margin: 4em 4em 4em 4em;
+}
+
+.instrucciones{
+  display: block;
+  margin: 4em 4em 4em 4em;
+}
+
+.paraEncriptar{
+  display: block;
+  margin: 1em 4em 4em 4em;
+}
