@@ -1,0 +1,41 @@
+.primero{
+  background-position: center;
+}
+
+#boton1{
+  display: block;
+  margin: 4em 4em 4em 4em;
+}
+#boton2{
+  display: block;
+  margin: 4em 4em 4em 4em;
+}
+
+#boton3{
+  display: block;
+  margin: 4em 4em 4em 4em;
+}
+
+.imagen{
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/518/487/large_2x/colorful-abstract-pink-and-violet-wave-background-banner-and-wallpaper-vector.jpg");
+
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.titulo{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'IM Fell English SC', serif;
+  font-family: 'Orienta', sans-serif;
+  font-family: 'Arya', sans-serif;
+}
+
+.subtitulo{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'IM Fell English SC', serif;
+  font-family: 'Orienta', sans-serif;
+  font-family: 'Arya', sans-serif;
+}
