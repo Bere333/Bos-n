@@ -2,38 +2,44 @@
 //Funcionalidad de boton1
 document.getElementById("boton1").addEventListener("click", () => { //funcion flecha
   console.log("boton1"); //testear boton1
-  const bienvenidaBoson = document.getElementById("bienvenidaBoson");/*Se creo una variable
+  let bienvenidaBoson = document.getElementById("bienvenidaBoson");/*Se creo una variable
   para la seccion llamada bienvenidaBoson*/
   bienvenidaBoson.style.display = "none"; /*La variable const Boson se hace
   desaparecer con none al hacer click en el boton1*/
-  const encriptar = document.getElementById("encriptar");
-  encriptar.style.display = "block";
+  let ayuda2 = document.getElementById("ayudaBoson");/*llama a la seccion ayudaBoson*/
+  ayudaBoson.style.display = "none";/*Esconde la seccion ayudaBoson*/
+  let encriptar = document.getElementById("encriptar");/*llama a la seccion encriptar*/
+  encriptar.style.display = "block";/*Esconde la seccion encriptar*/
 
 });
 
 document.getElementById("boton2").addEventListener("click", () => { //funcion flecha
   console.log("boton2");//testear boton2
-  const bienvenidaBoson = document.getElementById("bienvenidaBoson")/*Se creo una variable
+  let bienvenidaBoson = document.getElementById("bienvenidaBoson")/*Se creo una variable
   para la seccion llamada bienvenidaBoson*/
   bienvenidaBoson.style.display = "none";/*La variable const Boson se hace
   desaparecer con none al hacer click en el boton1*/
+  let ayuda3 = document.getElementById("ayudaBoson");
+  ayudaBoson.style.display = "none";
+  let encriptar2 = document.getElementById("encriptar");
+  encriptar.style.display = "none";
 })
 
 document.getElementById("boton3").addEventListener("click", () => {
   console.log("boton3");
-  const bienvenidaBoson = document.getElementById("bienvenidaBoson");/*Se creo una variable
+  let bienvenidaBoson = document.getElementById("bienvenidaBoson");/*Se creo una variable
   para la seccion llamada bienvenidaBoson*/
   bienvenidaBoson.style.display = "none";/*La variable const Boson se hace
   desaparecer con none al hacer click en el boton1*/
-  const ayuda = document.getElementById("ayudaBoson");/*Se creo una variable para la seccion de ayuda*/
+  let ayuda = document.getElementById("ayudaBoson");/*Se creo una variable para la seccion de ayuda*/
   ayudaBoson.style.display = "block";/*La variable ayuda se hace desaparecer
    con block al hacer click en el boton3*/
 })
 
 document.getElementById("boton4").addEventListener("click", () => {
   console.log("boton4");
-  const ocultarPagina = document.getElementById("ayudaBoson");
+  let ocultarPagina = document.getElementById("ayudaBoson");
   ayudaBoson.style.display = "none";
-  const regresar = document.getElementById("bienvenidaBoson");
+  let regresar = document.getElementById("bienvenidaBoson");
   bienvenidaBoson.style.display = "block";
 })
