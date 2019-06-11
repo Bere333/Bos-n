@@ -24,6 +24,14 @@ document.getElementById("boton3").addEventListener("click", () => {
   bienvenidaBoson.style.display = "none";/*La variable const Boson se hace
   desaparecer con none al hacer click en el boton1*/
   const ayuda = document.getElementById("ayudaBoson");/*Se creo una variable para la seccion de ayuda*/
-  ayudaBoson.style.display = "block"/*La variable ayuda se hace desaparecer
+  ayudaBoson.style.display = "block";/*La variable ayuda se hace desaparecer
    con block al hacer click en el boton3*/
+})
+
+document.getElementById("boton4").addEventListener("click", () => {
+  console.log("boton4");
+  const ocultarPagina = document.getElementById("ayudaBoson");
+  ayudaBoson.style.display = "none";
+  const regresar = document.getElementById("bienvenidaBoson");
+  bienvenidaBoson.style.display = "block";
 })
