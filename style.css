@@ -27,8 +27,15 @@
 }
 
 .imagen{
-  background-image: url("https://static.vecteezy.com/system/resources/previews/000/518/487/large_2x/colorful-abstract-pink-and-violet-wave-background-banner-and-wallpaper-vector.jpg");
+  background-image: url("https://wallpaper-gallery.net/images/black-blue-background/black-blue-background-2.jpg");
 
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.imagen2{
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/518/487/large_2x/colorful-abstract-pink-and-violet-wave-background-banner-and-wallpaper-vector.jpg");
   height: 100%;
   background-position: center;
   background-size: cover;
@@ -43,6 +50,26 @@
 }
 
 .subtitulo{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'IM Fell English SC', serif;
+  font-family: 'Orienta', sans-serif;
+  font-family: 'Arya', sans-serif;
+}
+
+.ayudaBoson{
+  background-position: center;
+}
+
+.institulo{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'IM Fell English SC', serif;
+  font-family: 'Orienta', sans-serif;
+  font-family: 'Arya', sans-serif;
+}
+
+.ayuda{
   color: white;
   font-family: 'Secular One', sans-serif;
   font-family: 'IM Fell English SC', serif;
