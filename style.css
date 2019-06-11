@@ -4,16 +4,26 @@
 
 #boton1{
   display: block;
-  margin: 4em 4em 4em 4em;
+  margin: 1em 4em 4em 4em;
+  border-style: double;
+  border-color: teal;
 }
 #boton2{
   display: block;
-  margin: 4em 4em 4em 4em;
+  margin: 1em 4em 4em 4em;
 }
 
 #boton3{
   display: block;
   margin: 4em 4em 4em 4em;
+}
+
+.seguro{
+  display: block;
+}
+
+.foco{
+  display: block;
 }
 
 .imagen{
